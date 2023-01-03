@@ -1,0 +1,50 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #0081C9;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.container {
+    background-color: #001253;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#form-numerico {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 50px;
+    font-family: sans-serif;
+}
+
+#campoA, #campoB {
+    background-color: black;
+    color: white;
+    margin: 6px;
+}
+
+#campoA, #campoB, #botao-enviar {
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+#botao-enviar {
+    background-color: #0A2647;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#botao-enviar:hover {
+    background-color: #205295;
+}
